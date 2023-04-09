@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Check Your BMI</h1>
+        </div>
+        <div class="content">
+            <div class="input">
+                <label for="height">Height(cm)</label>
+                <input type="number" id="height"><br>
+                <label for="weight">Weight(kg)</label>
+                <input type="number" name="" id="weight">
+            </div>
+            <button id="calculate">Calculate BMI</button>
+        </div>
+        <div class="result">
+            <p>Your BMI is</p>  
+            <p id="BMI">00.00</p>     
+            <p>Which means you are <span id="categories">Normal</span></p>
+        </div>  
+    </div>
+</body>
+</html>

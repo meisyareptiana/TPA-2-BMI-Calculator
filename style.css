@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./assets/pink.jpg");
+    background-size: cover;
+    font-family:'Poppins', sans-serif;
+}
+.container{
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background: #fafafa;
+    text-align: center; 
+    border-radius: 30px;
+}
+h1{
+    padding: 20px 0;
+}
+.content{
+    padding: 0 20px;
+}
+.input{ 
+    background: #ffffff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+.input label{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin: 20px 0;
+}
+.input input{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid;
+    font-family:'Poppins', sans-serif;
+}
+#calculate{
+    color: #ffffff;
+    background:  #ff74a2;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 10px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+}
+#calculate:hover{
+    background:#d7658b;
+}
+.result{
+    padding: 20px;
+}
+.result p{
+    font-size: 22px;
+    font-weight: 400px;
+    color: black;
+    margin-bottom: 15px;
+}
+.result #BMI{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff637d;
+    background-color:#d6d4d4;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+#categories{
+    color:  #ff637d;
+    font-weight: 600;
+}
+
+
+
+
